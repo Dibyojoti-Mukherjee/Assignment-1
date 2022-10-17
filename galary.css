@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+}
+#slide-container {
+   
+
+    position: relative;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 66vh;
+    
+}
+.slide img{
+    width: 700px;
+    height: 400px;
+    margin-top: 10px;
+
+}
+
+.galaryhide{
+    display: none;
+}
+#seemore:hover{
+    color: red;
+    background-color: rgb(182, 160, 127);
+    cursor: pointer;
+    font-weight: bold;
+}
+.hide1{
+    display:inline-grid;
+    grid-template-columns: auto auto auto ;
+     gap: 50px 50px;
+    width:auto;
+    height: 600px;
+    overflow-y:scroll;
+    margin-left: 250px;
+    
+    justify-content: space-evenly;
+
+}
+#galary img:hover{
+    height:500px;
+    width: 500px;
+}
+#galary img{
+    height: 300px;
+    width: 300px;
+    cursor: pointer;;
+}
+#see{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+#seemore{
+    padding: 7px 25px;
+    margin:10px 20px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+.slide{
+    display: none;
+}
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 166px;
+    color: black;
+    background-color: white;
+    padding: 8px 19px;
+    border-radius: 50%;
+font-size: 25px;
+font-weight: bold;
+
+}
+.next{
+    right: 243px;
+
+}
+.prev{
+    left: 243px;
+}

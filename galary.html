@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="galary.css">
+
+    <title>Galary</title>
+</head>
+
+<body>
+    <div id="header"> Carousel
+        <div id="menu" onclick="togglehide()">
+            <div id="bar1" class="bar"> </div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+    </div>
+    <ul id="toggle">
+        <li><a href="stopwatch1.html"> Stop Watch</a></li>
+        <li><a href="index.html"> Home</a></li>
+    </ul>
+    <div id="slide-container">
+        <div class="slide"> <img src="New folder/1.jpg" alt=""></div>
+        <div class="slide"> <img src="New folder/2.jpg" alt=""></div>
+        <div class="slide"> <img src="New folder/3.jpg" alt=""></div>
+        <div class="slide"> <img src="New folder/4.jpg" alt=""></div>
+        <div class="slide"> <img src="New folder/6.jpg" alt=""></div>
+        <span class="arrow prev" onclick="controler(-1)">&#10094</span>
+        <span class="arrow next" onclick="controler(+1)">&#10095</span>
+
+    </div>
+    
+    <div id="galary" class=" galaryhide">
+        <div class=""> <img src="New folder/1.jpg" alt=""></div>
+        <div class=""> <img src="New folder/2.jpg" alt=""></div>
+        <div class=""> <img src="New folder/3.jpg" alt=""></div>
+        <div class=""> <img src="New folder/4.jpg" alt=""></div>
+        <!-- <div class=""> <img src="New folder/5.jpg" alt=""></div> -->
+        <div class=""> <img src="New folder/6.jpg" alt=""></div>
+        <div class=""> <img src="New folder/7.jpg" alt=""></div>
+        <div class=""> <img src="New folder/8.jpg" alt=""></div>
+        <div class=""> <img src="New folder/9.jpg" alt=""></div>
+        
+
+    </div>
+    <div id="see"><button id="seemore" onclick="hide2()"> SEE MORE</button></div>
+    <script src="assignment1.js">
+    </script>
+    <script src="galaryscript.js"></script>
+</body>
+
+</html>

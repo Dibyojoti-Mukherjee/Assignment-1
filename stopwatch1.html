@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stopwatchstyle.css">
+    <title>Stop Watch</title>
+</head>
+
+<body>
+    <div id="header"> Stop Watch
+        <div id="menu" onclick="togglehide()">
+            <div id="bar1" class="bar"> </div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+    </div>
+
+    <ul id="toggle">
+        <!-- <li><a href="stopwatch1.html"> Stop Watch</a></li> -->
+        <li><a href="galary.html"> Carousel</a></li>
+        <li><a href="index.html"> Home</a></li>
+    </ul>
+    <div id="main-container">
+        <div id="container">
+
+            <span class="digit" id="hr">00</span>
+            <span class="txt">Hr</span>
+            <span class="digit" id="min">00</span>
+            <span class="txt">Min</span>
+            <span class="digit" id="sec">00</span>
+            <span class="txt" >sec</span>
+            <!-- <span class="digit" id="count">00</span> -->
+        </div>
+      
+        <div id="btn">
+            <button id="start" class="btn" onclick="start()">START</button>
+            <button id="stop" class="btn" onclick="stop()">STOP</button>
+            <button id="reset" class="btn" onclick="reset()">RESET</button>
+            <button id="lap" class="btn" onclick="lap()">LAP</button>
+        </div>
+        <div id="laptext"> </div>
+    </div>
+    <script src="assignment1.js"></script>
+    <script src="stopwatch.js"></script>
+
+</body>
+
+</html>
